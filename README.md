@@ -32,7 +32,7 @@ The system follows a multi-stage processing pipeline:
 
 5. **Question Answering**: Users can query the processed SDS using `QALLM`, which uses the markdown content as context to answer questions about the safety data.
 
-6. **Answer Judging** (for benchmarking): The `JudgeLLM` evaluates answer quality against acceptance criteria, useful for benchmarking and quality assurance.
+6. **Answer Judging** (for benchmarking): The `JudgeLLM` evaluates answer quality against acceptance criteria, useful for benchmarking and quality assurance. See [benchmarking.md](benchmarking.md) for benchmark results and evaluation methodology.
 
 ### LLM Processing Architecture
 
@@ -177,6 +177,10 @@ poetry run pytest tests/test_models.py
 
 Tests use mocking to avoid requiring actual LLM API calls or file system operations during testing.
 
+### Benchmarking
+
+The system includes benchmark evaluation using `JudgeLLM` to assess answer quality. The benchmark suite tests the question-answering capabilities against a curated set of 20 questions with expected answers and acceptance criteria. See [benchmarking.md](benchmarking.md) for detailed benchmark results, including accuracy scores and failure case analysis.
+
 ## Configuration
 
 The system requires API keys for OpenAI (if using OpenAI models). Configure these in `sds_digest/src/secrets.py` or through environment variables.
@@ -198,7 +202,7 @@ sds_digest/
 ## Possible Future Improvements
 
 - Adjust parsing with alternative methods (Unstruct, VLM, Marker)
-- Better benchmarking with deepeval or ragas
+- Enhanced benchmarking with deepeval or ragas (current benchmarking results available in [benchmarking.md](benchmarking.md))
 - Extraction improvements (RAG, Hierarchical generation)
 - Implement chunking and indexing for large documents
 - Add vector database support once needed (FAISS or Chroma)
