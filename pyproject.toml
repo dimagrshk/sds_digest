@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "sds-digest"
+version = "0.1.0"
+description = ""
+authors = ["Dmytro Hrishko <dimagrshk@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+docling = "^2.64.0"
+pymupdf = "^1.26.6"
+pymupdf4llm = "^0.2.6"
+pymupdf-layout = "^1.26.6"
+llama-index-llms-ollama = "^0.9.0"
+pydentic = "^0.0.1.dev3"
+marker-pdf = "^1.10.1"
+llama-index-llms-openai = "^0.6.10"
+fastapi = "^0.124.0"
+uvicorn = "^0.38.0"
+streamlit = "^1.52.1"
+requests = "^2.32.0"
+python-multipart = "^0.0.20"
+structlog = "^25.5.0"
+pytest = "^9.0.2"
+pytest-asyncio = "^0.24.0"
+httpx = "^0.28.0"
+pytest-mock = "^3.14.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^4.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
