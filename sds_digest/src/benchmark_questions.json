@@ -1,0 +1,185 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "section": "1. Identification",
+      "reference": "Product identifier: Acetone",
+      "reason": "Verifies that the agent correctly identifies the substance described in the SDS.",
+      "question": "What is the product identifier listed in this Safety Data Sheet?",
+      "example_of_correct_answer": "Acetone",
+      "description_of_correct_answer": "The answer must explicitly name Acetone as the product identifier."
+    },
+    {
+      "id": 2,
+      "section": "1. Identification",
+      "reference": "Synonyms: 2-Propanone",
+      "reason": "Tests recall of alternative chemical naming.",
+      "question": "What synonym is given for acetone in the SDS?",
+      "example_of_correct_answer": "2-Propanone",
+      "description_of_correct_answer": "The agent must return the alternative chemical name listed which is 2-Propanone."
+    },
+    {
+      "id": 3,
+      "section": "1. Identification",
+      "reference": "Recommended use: For Laboratory, Research or Manufacturing Use.",
+      "reason": "Ensures understanding of intended product usage.",
+      "question": "What is the recommended use of acetone according to this SDS?",
+      "example_of_correct_answer": "For laboratory, research, or manufacturing use.",
+      "description_of_correct_answer": "The answer must match the intended use scope stated in the SDS which is For laboratory, research, or manufacturing use."
+    },
+    {
+      "id": 4,
+      "section": "2. Hazard Identification",
+      "reference": "Flammable liquids Category 2",
+      "reason": "Validates knowledge of physical hazard classification.",
+      "question": "What is the flammable liquid hazard category for acetone?",
+      "example_of_correct_answer": "Category 2",
+      "description_of_correct_answer": "The response must specify the correct flammability category which is Category 2."
+    },
+    {
+      "id": 5,
+      "section": "2. Hazard Identification",
+      "reference": "Signal Word: Danger",
+      "reason": "Tests correct retrieval of GHS labeling elements.",
+      "question": "What signal word is assigned to acetone on the hazard label?",
+      "example_of_correct_answer": "Danger",
+      "description_of_correct_answer": "The agent must retrieve the exact signal word which is Danger."
+    },
+    {
+      "id": 6,
+      "section": "2. Hazard Identification",
+      "reference": "Hazard Statement: Highly flammable liquid and vapor.",
+      "reason": "Checks accurate recall of primary hazard statements.",
+      "question": "What is one major flammability hazard statement for acetone?",
+      "example_of_correct_answer": "Highly flammable liquid and vapor.",
+      "description_of_correct_answer": "The response must match the official hazard statement which is Highly flammable liquid and vapor."
+    },
+    {
+      "id": 7,
+      "section": "2. Hazard Identification",
+      "reference": "IF SWALLOWED: Immediately call a POISON CENTER/doctor. Do NOT induce vomiting.",
+      "reason": "Tests emergency response knowledge for ingestion exposure.",
+      "question": "What should be done immediately if acetone is swallowed?",
+      "example_of_correct_answer": "Call a poison center or doctor immediately and do not induce vomiting.",
+      "description_of_correct_answer": "Both calling medical help and avoiding induced vomiting must be mentioned."
+    },
+    {
+      "id": 8,
+      "section": "3. Composition / Information on Ingredients",
+      "reference": "Acetone 67-64-1 99.00 - 100.00%",
+      "reason": "Verifies correct identification of chemical purity and CAS number.",
+      "question": "What is the CAS number and concentration range of acetone in this product?",
+      "example_of_correct_answer": "CAS 67-64-1 at 99.00–100.00%.",
+      "description_of_correct_answer": "The answer must include both CAS number and concentration, specifically CAS 67-64-1 at 99.00–100.00%."
+    },
+    {
+      "id": 9,
+      "section": "4. First-Aid Measures",
+      "reference": "Ingestion: Call a physician or poison control center immediately. Do NOT induce vomiting.",
+      "reason": "Cross-validates emergency medical actions.",
+      "question": "Should vomiting be induced after ingesting acetone?",
+      "example_of_correct_answer": "No, vomiting should not be induced.",
+      "description_of_correct_answer": "The model must explicitly state that inducing vomiting is prohibited."
+    },
+    {
+      "id": 10,
+      "section": "5. Fire-Fighting Measures",
+      "reference": "Suitable extinguishing media: Water spray, foam, dry powder or carbon dioxide.",
+      "reason": "Evaluates correctness of fire suppression guidance.",
+      "question": "Which fire extinguishing media are suitable for acetone fires?",
+      "example_of_correct_answer": "Water spray, foam, dry powder, or carbon dioxide.",
+      "description_of_correct_answer": "At least one correct extinguishing method must be named which is Water spray, foam, dry powder, or carbon dioxide."
+    },
+    {
+      "id": 11,
+      "section": "5. Fire-Fighting Measures",
+      "reference": "Unsuitable extinguishing media: Avoid water in straight hose stream.",
+      "reason": "Checks the agent avoids unsafe firefighting guidance.",
+      "question": "What type of water application should be avoided when extinguishing an acetone fire?",
+      "example_of_correct_answer": "A straight hose stream of water should be avoided.",
+      "description_of_correct_answer": "The answer must clearly prohibit straight-stream water use."
+    },
+    {
+      "id": 12,
+      "section": "9. Physical and Chemical Properties",
+      "reference": "Flammability limit - lower (%): 2.13 - 2.6 %(V)",
+      "reason": "Tests recall of explosive concentration thresholds.",
+      "question": "What is the lower flammability limit of acetone vapor in air?",
+      "example_of_correct_answer": "Between 2.13% and 2.6% by volume.",
+      "description_of_correct_answer": "The response must state the numerical lower limit range which is Between 2.13% and 2.6% by volume."
+    },
+    {
+      "id": 13,
+      "section": "9. Physical and Chemical Properties",
+      "reference": "Flash Point: -20 - -17 °C (Closed Cup)",
+      "reason": "Verifies recognition of extreme fire risk properties.",
+      "question": "What is the flash point range of acetone?",
+      "example_of_correct_answer": "-20 to -17 °C.",
+      "description_of_correct_answer": "The answer must provide the correct temperature range which is -20 to -17 °C."
+    },
+    {
+      "id": 14,
+      "section": "9. Physical and Chemical Properties",
+      "reference": "Auto-ignition temperature: 465 °C",
+      "reason": "Tests knowledge of ignition without external flame.",
+      "question": "At what temperature can acetone auto-ignite?",
+      "example_of_correct_answer": "465 °C.",
+      "description_of_correct_answer": "The numerical value must match the SDS exactly which is 465 °C."
+    },
+    {
+      "id": 15,
+      "section": "9. Physical and Chemical Properties",
+      "reference": "Solubility in water: Miscible",
+      "reason": "Checks knowledge of environmental and handling behavior.",
+      "question": "Is acetone soluble in water?",
+      "example_of_correct_answer": "Yes, it is miscible in water.",
+      "description_of_correct_answer": "The answer must indicate full miscibility."
+    },
+    {
+      "id": 16,
+      "section": "2. Hazard Identification",
+      "reference": "Aspiration Hazard Category 2",
+      "reason": "Assesses awareness of inhalation and ingestion risks.",
+      "question": "What aspiration hazard category is assigned to acetone?",
+      "example_of_correct_answer": "Category 2.",
+      "description_of_correct_answer": "The category number must be correctly stated."
+    },
+    {
+      "id": 17,
+      "section": "11. Toxicological Information",
+      "reference": "Product: LD 50 (Rat): 5,800 mg/kg",
+      "reason": "Tests toxicological quantitative grounding.",
+      "question": "What is the oral LD50 of acetone in rats?",
+      "example_of_correct_answer": "5,800 mg/kg.",
+      "description_of_correct_answer": "The numerical toxicology value must match the SDS which is 5,800 mg/kg."
+    },
+    {
+      "id": 18,
+      "section": "12. Ecological Information",
+      "reference": "Biodegradation: Expected to be readily biodegradable.",
+      "reason": "Checks environmental impact understanding.",
+      "question": "Is acetone expected to be readily biodegradable?",
+      "example_of_correct_answer": "Yes, it is expected to be readily biodegradable.",
+      "description_of_correct_answer": "The answer must confirm positive biodegradability."
+    },
+    {
+      "id": 19,
+      "section": "14. Transport Information",
+      "reference": "UN Number: UN 1090",
+      "reason": "Validates transport safety identification.",
+      "question": "What is the UN number assigned to acetone for transport?",
+      "example_of_correct_answer": "UN 1090.",
+      "description_of_correct_answer": "The response must return the exact UN number which is UN 1090."
+    },
+    {
+      "id": 20,
+      "section": "14. Transport Information",
+      "reference": "Packing Group: II",
+      "reason": "Tests regulatory transport classification precision.",
+      "question": "What packing group is acetone assigned for transport?",
+      "example_of_correct_answer": "Packing Group II.",
+      "description_of_correct_answer": "The correct packing group must be stated which is Packing Group II."
+    }
+  ]
+}
+
